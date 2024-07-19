@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation2"
+    app:startDestination="@+id/nav_profile">
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.resturantproject.Activities.ui.proflle.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/nav_addadmin"
+        android:name="com.example.resturantproject.Activities.ui.addadmin.AddAdmin"
+        android:label="Add Admin"
+        tools:layout="@layout/fragment_add_admin" />
+
+    <fragment
+        android:id="@+id/nav_allorders"
+        android:name="com.example.resturantproject.Activities.ui.allorders.allOrders"
+        android:label="All Orders"
+        tools:layout="@layout/fragment_all_orders" />
+
+    <fragment
+        android:id="@+id/nav_addoffer"
+        android:name="com.example.resturantproject.Activities.ui.addoffers.addOffers"
+        android:label="Add Special Offer"
+        tools:layout="@layout/fragment_add_offers" />
+
+    <fragment
+        android:id="@+id/nav_statistics"
+        android:name="com.example.resturantproject.Activities.fragments.StatisticsFragment"
+        android:label="statistics"
+        tools:layout="@layout/fragment_statistics" />
+
+
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.example.resturantproject.Activities.ui.logout.LogoutFragment"
+        android:label="Logout"
+        tools:layout="@layout/fragment_logout" />
+</navigation>

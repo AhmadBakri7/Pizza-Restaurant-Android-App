@@ -1,0 +1,30 @@
+<resources>
+    <string-array name="gender_array">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="price_array">
+        <item>All</item>
+        <item>10-20</item>
+        <item>20-30</item>
+        <item>30-40</item>
+        <item>40-50</item>
+    </string-array>
+
+    <!-- Arrays for Category -->
+    <string-array name="category_array">
+        <item>All</item>
+        <item>Chicken</item>
+        <item>Veggies</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="size_array">
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+    </string-array>
+
+</resources>

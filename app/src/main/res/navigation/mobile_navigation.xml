@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.resturantproject.Activities.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_pizzamenu"
+        android:name="com.example.resturantproject.Activities.ui.pizzamenu.PizzaMenuFragment"
+        android:label="Pizza Menu"
+        tools:layout="@layout/fragment_pizza_menu" />
+
+    <fragment
+        android:id="@+id/nav_orders"
+        android:name="com.example.resturantproject.Activities.ui.orders.OrdersFragment"
+        android:label="Orders"
+        tools:layout="@layout/fragment_orders" />
+
+    <fragment
+        android:id="@+id/nav_favorites"
+        android:name="com.example.resturantproject.Activities.ui.favorites.favoritesFragment"
+        android:label="Favorites"
+        tools:layout="@layout/fragment_favorites" />
+
+    <fragment
+        android:id="@+id/nav_offers"
+        android:name="com.example.resturantproject.Activities.ui.offers.OffersFragment"
+        android:label="Offers"
+        tools:layout="@layout/fragment_offers" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.resturantproject.Activities.ui.proflle.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/nav_callfind"
+        android:name="com.example.resturantproject.Activities.ui.callfind.CallFindFragment"
+        android:label="CallFind"
+        tools:layout="@layout/fragment_call_find" />
+
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.example.resturantproject.Activities.ui.logout.LogoutFragment"
+        android:label="Logout"
+        tools:layout="@layout/fragment_logout" />
+
+</navigation>

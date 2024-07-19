@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">MyApp</string>
+    <string name="login_page">Login Page</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="remember_me">Remember me</string>
+    <string name="sign_in">LOGIN</string>
+    <string name="dont_have_account">Don\'t have an account yet?</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="sign_in_button">Sign in button</string>
+    <string name="sign_up_button">Sign up button</string>
+
+
+    <!-- Strings for Sign-Up Page -->
+    <string name="create_account">Create new account</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="create_account_button">CREATE ACCOUNT</string>
+    <string name="terms_agreement">By signing up you agree to the terms of service and privacy policy</string>
+    <string name="hint_phone_number">Phone Number</string>
+    <string name="hint_first_name">First Name</string>
+    <string name="hint_last_name">Last Name</string>
+    <string name="hint_gender">Gender</string>
+
+</resources>
+
+
+
